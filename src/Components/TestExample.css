@@ -1,0 +1,29 @@
+.container{
+    width: 300px;
+    border:1px solid #ccc;
+    padding: 10px;
+    margin:  20px 0;;
+}
+
+.nowrap{
+    white-space: nowrap;
+    border:1px dashed blue;
+}
+
+.wrap{
+    white-space: normal;
+    border: 1px dashed green;
+}
+
+.break-word{
+    overflow-wrap: anywhere;
+}
+
+.break-all{
+    overflow-wrap: break-all;
+    border: 1px dashed purple;
+}
+
+.pre-wrap{
+    white-space: pre-wrap;
+}
