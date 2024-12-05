@@ -29,7 +29,7 @@ function Textexample() {
             </div>
 
         <Link to="/position">
-        <button className='font-[50px] w-[2.2rem] bg-gray-500 font-semibold hover:bg-gray-300 border4-dashed border-[#686868]'>CSS Positions to learn👍</button>
+        <button className='font-[50px] bg-gray-500 font-semibold hover:bg-gray-300 border4-dashed border-[#686868]'>CSS Positions to learn👍</button>
             </Link>
 
         </div>
