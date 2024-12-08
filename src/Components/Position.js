@@ -1,4 +1,6 @@
 import './Position.css'
+import { Link } from "react-router-dom";
+
 
 function Position() {
     return (
@@ -47,7 +49,7 @@ function Position() {
 
 
             </div>
-
+            <Link to='/RelAbsPos'><strong className='bg-blue-500'>RelAbsPos</strong></Link>
         </>
     )
 }

@@ -2,6 +2,7 @@ import './App.css';
 import TestExample from './Components/TestExample'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Position from './Components/Position';
+import RelAbsPos from './Components/RelAbsPos';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
 
     <Route path='/' element={<TestExample/>}/>
     <Route path='/position' element={<Position/>}/>
-
+    <Route path='/RelAbsPos' element={<RelAbsPos/>}/>
     </Routes>
     
     </BrowserRouter>
